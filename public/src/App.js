@@ -17,8 +17,8 @@ firebase.initializeApp({
   projectId: "wtyt-80590",
   storageBucket: "wtyt-80590.appspot.com",
   messagingSenderId: "148914480275",
-  appId: "1:148914480275:web:7031a86cf46e83772e9966",
-  measurementId: "G-FX7K25LRS4"
+  appId: "1:148914480275:web:8eb50151b3eee0882e9966",
+  measurementId: "G-73Y0996S0M"
 })
 
 const auth = firebase.auth();    

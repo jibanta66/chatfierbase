@@ -1,0 +1,144 @@
+[debug] [2022-08-08T15:54:02.220Z] ----------------------------------------------------------------------
+[debug] [2022-08-08T15:54:02.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jiban\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-08T15:54:02.223Z] CLI Version:   11.4.2
+[debug] [2022-08-08T15:54:02.223Z] Platform:      win32
+[debug] [2022-08-08T15:54:02.223Z] Node Version:  v16.13.0
+[debug] [2022-08-08T15:54:02.225Z] Time:          Mon Aug 08 2022 22:54:02 GMT+0700 (Indochina Time)
+[debug] [2022-08-08T15:54:02.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-08T15:54:02.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-08T15:54:02.317Z] > authorizing via signed-in user (jibantanarzary1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\stack\plototype\react-firebase-chat
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-08T15:54:14.906Z] Using project from CLI flag: healthy-life-307718
+[debug] [2022-08-08T15:54:14.910Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/healthy-life-307718 [none]
+[debug] [2022-08-08T15:54:15.557Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/healthy-life-307718 200
+[debug] [2022-08-08T15:54:15.557Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/healthy-life-307718 {"projectId":"healthy-life-307718","projectNumber":"604859382969","displayName":"My First Project","name":"projects/healthy-life-307718","resources":{"hostingSite":"healthy-life-307718","realtimeDatabaseInstance":"healthy-life-307718-default-rtdb","storageBucket":"healthy-life-307718.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_61dd2d88-8cbe-4186-9ee2-e4a6d1adab7f"}
+[info] i  Using project healthy-life-307718 (My First Project) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-08T15:54:54.407Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-08T15:54:54.941Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-08T15:54:54.941Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\stack\plototype\react-firebase-chat 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=123722913&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-08T15:54:59.896Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-08T15:54:59.896Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-08T15:55:00.465Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-08T15:55:00.466Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-08T15:55:00.474Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-08T15:55:01.107Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-08T15:55:01.108Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"jibanta66","id":63874888,"node_id":"MDQ6VXNlcjYzODc0ODg4","avatar_url":"https://avatars.githubusercontent.com/u/63874888?v=4","gravatar_id":"","url":"https://api.github.com/users/jibanta66","html_url":"https://github.com/jibanta66","followers_url":"https://api.github.com/users/jibanta66/followers","following_url":"https://api.github.com/users/jibanta66/following{/other_user}","gists_url":"https://api.github.com/users/jibanta66/gists{/gist_id}","starred_url":"https://api.github.com/users/jibanta66/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jibanta66/subscriptions","organizations_url":"https://api.github.com/users/jibanta66/orgs","repos_url":"https://api.github.com/users/jibanta66/repos","events_url":"https://api.github.com/users/jibanta66/events{/privacy}","received_events_url":"https://api.github.com/users/jibanta66/received_events","type":"User","site_admin":false,"name":"Jibanta","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":13,"public_gists":0,"followers":0,"following":0,"created_at":"2020-04-17T18:37:03Z","updated_at":"2022-07-25T11:55:48Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":105660,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as jibanta66 
+[info] 
+[debug] [2022-08-08T15:55:08.096Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-08T15:55:08.697Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-08T15:55:08.697Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T15:55:18.334Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-08-08T15:55:19.443Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-08-08T15:55:19.443Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T15:57:25.116Z] ----------------------------------------------------------------------
+[debug] [2022-08-08T15:57:25.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jiban\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-08T15:57:25.119Z] CLI Version:   11.4.2
+[debug] [2022-08-08T15:57:25.119Z] Platform:      win32
+[debug] [2022-08-08T15:57:25.120Z] Node Version:  v16.13.0
+[debug] [2022-08-08T15:57:25.121Z] Time:          Mon Aug 08 2022 22:57:25 GMT+0700 (Indochina Time)
+[debug] [2022-08-08T15:57:25.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-08T15:57:25.210Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-08T15:57:25.210Z] > authorizing via signed-in user (jibantanarzary1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\stack\plototype\react-firebase-chat
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-08T15:57:32.506Z] Using project from CLI flag: healthy-life-307718
+[debug] [2022-08-08T15:57:32.510Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/healthy-life-307718 [none]
+[debug] [2022-08-08T15:57:33.585Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/healthy-life-307718 200
+[debug] [2022-08-08T15:57:33.585Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/healthy-life-307718 {"projectId":"healthy-life-307718","projectNumber":"604859382969","displayName":"My First Project","name":"projects/healthy-life-307718","resources":{"hostingSite":"healthy-life-307718","realtimeDatabaseInstance":"healthy-life-307718-default-rtdb","storageBucket":"healthy-life-307718.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_61dd2d88-8cbe-4186-9ee2-e4a6d1adab7f"}
+[info] i  Using project healthy-life-307718 (My First Project) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-08T15:57:44.391Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-08T15:57:44.662Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-08T15:57:44.663Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\stack\plototype\react-firebase-chat 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=262330134&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-08T15:57:54.687Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-08T15:57:54.687Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-08T15:57:55.199Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-08T15:57:55.200Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-08T15:57:55.207Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-08T15:57:56.155Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-08T15:57:56.155Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"jibanta66","id":63874888,"node_id":"MDQ6VXNlcjYzODc0ODg4","avatar_url":"https://avatars.githubusercontent.com/u/63874888?v=4","gravatar_id":"","url":"https://api.github.com/users/jibanta66","html_url":"https://github.com/jibanta66","followers_url":"https://api.github.com/users/jibanta66/followers","following_url":"https://api.github.com/users/jibanta66/following{/other_user}","gists_url":"https://api.github.com/users/jibanta66/gists{/gist_id}","starred_url":"https://api.github.com/users/jibanta66/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jibanta66/subscriptions","organizations_url":"https://api.github.com/users/jibanta66/orgs","repos_url":"https://api.github.com/users/jibanta66/repos","events_url":"https://api.github.com/users/jibanta66/events{/privacy}","received_events_url":"https://api.github.com/users/jibanta66/received_events","type":"User","site_admin":false,"name":"Jibanta","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":13,"public_gists":0,"followers":0,"following":0,"created_at":"2020-04-17T18:37:03Z","updated_at":"2022-07-25T11:55:48Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":105660,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as jibanta66 
+[info] 
+[debug] [2022-08-08T15:58:29.565Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-08-08T15:58:30.021Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-08-08T15:58:30.022Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T15:58:32.348Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-08-08T15:58:32.775Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-08-08T15:58:32.775Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
