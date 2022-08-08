@@ -9,15 +9,24 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
+//.conttention with my fierbaseapp
+
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyAShyGtV3987hiPEJUXI9qU9ECj3bFEqzw",
+  authDomain: "new-project-cfaa5.firebaseapp.com",
+  databaseURL: "https://new-project-cfaa5-default-rtdb.firebaseio.com",
+  projectId: "new-project-cfaa5",
+  storageBucket: "new-project-cfaa5.appspot.com",
+  messagingSenderId: "354484489436",
+  appId: "1:354484489436:web:5f683bca80075ba17c3819",
+  measurementId: "G-GLGH3V0KVL"
 })
 
-const auth = firebase.auth();
+const auth = firebase.auth();    
 const firestore = firebase.firestore();
 const analytics = firebase.analytics();
 
-
+// main function
 function App() {
 
   const [user] = useAuthState(auth);
@@ -36,14 +45,14 @@ function App() {
     </div>
   );
 }
-
+//signin=(1.signinwithgoodle,2provider)
 function SignIn() {
 
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider);
   }
-
+// return=button,pharagrap
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
@@ -52,13 +61,13 @@ function SignIn() {
   )
 
 }
-
+//signout=return=button
 function SignOut() {
   return auth.currentUser && (
     <button className="sign-out" onClick={() => auth.signOut()}>Sign Out</button>
   )
 }
-
+//chatroom
 
 function ChatRoom() {
   const dummy = useRef();
@@ -105,7 +114,7 @@ function ChatRoom() {
   </>)
 }
 
-
+//function chat message
 function ChatMessage(props) {
   const { text, uid, photoURL } = props.message;
 
