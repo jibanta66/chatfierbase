@@ -12,14 +12,14 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 //.conttention with my fierbaseapp
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAYgZ0Jr8WYxA-6Aj-GVknGUCOHLjgtwLA",
-  authDomain: "wtyt-80590.firebaseapp.com",
-  projectId: "wtyt-80590",
-  storageBucket: "wtyt-80590.appspot.com",
-  messagingSenderId: "148914480275",
-  appId: "1:148914480275:web:8eb50151b3eee0882e9966",
-  measurementId: "G-73Y0996S0M"
-})
+    apiKey: "AIzaSyAKutONmp4bZx6nQFIohs7gw8-6nRQiBRE",
+    authDomain: "wdwsad-a2fb1.firebaseapp.com",
+    projectId: "wdwsad-a2fb1",
+    storageBucket: "wdwsad-a2fb1.appspot.com",
+    messagingSenderId: "558736234255",
+    appId: "1:558736234255:web:fef6e99086da88313d507a",
+    measurementId: "G-EC0HF504DJ"
+  })
 
 const auth = firebase.auth();    
 const firestore = firebase.firestore();
